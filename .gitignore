@@ -1,0 +1,110 @@
+# ─────────────────────────────────────────────
+#  FinanceFlow — .gitignore
+#  github.com/codewithmukeem/flutter-finance-app
+# ─────────────────────────────────────────────
+
+# ── Dependencies ──────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ── Build outputs ─────────────────────────────
+dist/
+build/
+out/
+tmp/
+out-tsc/
+*.tsbuildinfo
+
+# ── Expo / React Native ───────────────────────
+.expo/
+.expo-shared/
+expo-env.d.ts
+android/
+ios/
+
+# ── Metro bundler cache ───────────────────────
+.metro-cache/
+metro-cache/
+
+# ── EAS / Expo Application Services ──────────
+.eas/
+
+# ── Environment variables ─────────────────────
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# ── Logs ──────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ── OS generated ──────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ── IDEs and editors ──────────────────────────
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# VSCode — keep useful settings, ignore personal
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ── Testing & coverage ────────────────────────
+coverage/
+.nyc_output/
+*.lcov
+/test-results/
+/playwright-report/
+
+# ── Miscellaneous ─────────────────────────────
+/.sass-cache
+/connect.lock
+/libpeerconnection.log
+testem.log
+/typings
+*.tgz
+*.zip
+*.tar.gz
+
+# ── Replit internal (not for GitHub) ─────────
+.cache/
+.local/
+.replit
+.replitignore
+.replit-artifact/
+replit.md
+
+# ── Cursor / other AI tools ───────────────────
+.cursor/
+.github/instructions/
+
+# ── pnpm ──────────────────────────────────────
+# Keep pnpm-lock.yaml (important for reproducible installs)
+# Keep pnpm-workspace.yaml
+
+# ── APK build artefacts (keep the apk/ folder itself) ──
+*.apk.sha256
